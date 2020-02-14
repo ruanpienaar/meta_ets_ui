@@ -1,0 +1,12 @@
+{application, meta_ets_ui,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { meta_ets_ui_app, []}},
+  {env, []}
+ ]}.
